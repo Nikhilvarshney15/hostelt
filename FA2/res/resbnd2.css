@@ -1,0 +1,354 @@
+@media(max-width:600px)
+{
+	#top 
+{
+	width:100%;
+text-align:left;
+font-size:13px;
+background:#1E90FF;			
+
+}
+.contact
+{
+	margin 0 auto;
+	padding-top:10px;
+	margin-left: 50px;
+}
+#header{
+margin-top:3px;
+	width:100%;
+	
+background:white;
+	 
+}
+#header p{
+	
+	margin-top:30px;
+	font-size:30px;
+	color:green;
+}
+
+
+#toggle:checked + .navbar
+{
+	display:flex;
+}
+.togglearea
+{
+	display:flex;
+}
+.navbar
+{
+	display:none;
+	margin-top:3px;
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background:grey;
+flex-direction:column;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.dropdown {
+
+  float: left;
+  overflow: hidden;
+  text-align:center;
+
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align:center;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: flex;
+    flex-direction:column;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
+ 
+}
+
+.img1 {
+
+  background-image: url("image/bnd1.jpg");
+  
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);	
+  height:200px;
+  width:100%;
+ margin-left:0px;
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left:20%;
+  transform: translate(-50%, -50%);
+  color:white;
+  margin-left:100px;
+ }
+ .post_body{
+	 margin-top:50px;
+	 margin-left:0px;
+	 float:left;
+		width:100%;
+height:auto;
+background:white;
+
+}
+.abouthostel
+{
+	width:100%;
+	height:650px;
+	background:white;
+}
+.hosteldetails
+{
+		 margin-top:50px;
+	 margin-left:0px;
+	 float:left;
+	 border-top:2px solid grey;
+	  border-bottom:2px solid grey; border-left:2px solid grey; 
+	  border-right:2px solid grey;
+		width:347px;
+height:250px;
+background:white;
+	 margin-bottom:20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 330px;
+  margin-top:20px;
+  margin-left:10px;
+  margin-bottom:20px;
+}
+.ouroffer
+{
+		 margin-top:50px;
+	 margin-right:0px;
+float:left;
+border-top:2px solid grey;
+	  border-bottom:2px solid grey; border-left:2px solid grey; 
+	  border-right:2px solid grey;
+		width:347px;
+height:250px;
+background:white;
+	 margin-bottom:20px;
+}
+.amenities
+{
+	margin-top:30px;
+	width:100%;
+	height:100px;
+	background:white;
+}	
+	
+	.iconte
+	{
+		margin-left:5px;
+  float:left;
+		width:80px;
+	height:80px;
+background:white;
+	}
+	.cont
+{
+
+	display: flex;
+	top:50px;
+	width:80px;
+	height:60px;
+background:white;
+margin-left:2px;
+}
+.description
+{
+	 margin-top:20px;
+	 margin-left:0px;
+	 margin-right:20px;
+		width:100%;
+height:auto;
+background:white;
+}	
+.aditiondetails
+{
+	float:left;
+	width:50%;
+	height:20px;
+padding-top:4px;
+margin-top:2px;
+background:#B8B8B8;
+	 border-top:2px solid grey;
+	  border-bottom:2px solid grey; border-left:2px solid grey; 
+	  border-right:2px solid grey;
+  }
+  .aditiondetails2
+{
+
+	margin-left: 1px;
+  float:right;
+	width:45%;
+	height:20px;
+background:white;
+padding-top:4px;
+margin-top:2px;
+margin-right:5px;
+border-left:2px solid grey;
+border-top:2px solid grey;
+	  border-bottom:2px solid grey; 
+	  border-right:2px solid grey;
+}
+#myBtn
+{
+	margin-left:100px;
+	margin-top:15px;
+	width:150px;
+	height:40px;
+
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.textsize
+{
+	margin-top:15px;
+	height:40px;
+	width:100%;
+}
+.sendb1
+{
+	margin-left:80px;
+	margin-top:15px;
+	width:150px;
+	height:40px;
+}
+.sidebar{
+	 margin-top:50px;
+
+	 float:right;
+		width:100%;
+height:auto;
+background:	#F0F0F0;
+margin-right:0px;
+margin-bottom:20px;
+}
+.getbox
+{
+	width:100%;
+
+	height:400px;
+	background:grey;
+}
+.sendb
+{
+	margin-left:10px;
+	margin-top:15px;
+	width:150px;
+	height:40px;
+}
+#myBtn1
+{
+	
+margin-left:20px;
+	margin-top:15px;
+	width:150px;
+	height:40px;
+}
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.map
+{
+width:100%;
+height:40px;
+background:#F0F0F0;	
+}
+.foot
+{
+	
+	width:100%;
+	height:auto;
+	
+	background:red;
+	clear:both;
+}
+
+.aboutus
+{
+	border-bottom:2px solid  grey;
+	width:100%;
+	height:200px;
+	margin-left:0px;
+	background:#eff0ef;
+	color:grey;
+	float:left;
+}
+
+.aboutus2
+{
+		margin-top:5px;
+			width:300px;
+	height:45px;
+
+		border-bottom:2px solid  #ffff00;
+	background:#eff0ef;
+
+
+}
+ul
+{
+	display: flex;
+	position:relative;
+	top:30px;
+	margin-left:90px;
+	transform:translate(-50%,-50%);
+}
+}
